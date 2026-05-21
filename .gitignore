@@ -1,0 +1,21 @@
+# Nix build outputs
+/result
+/result-*
+
+# Local tool state
+/.direnv/
+
+# Local plaintext config and secret material
+/.env
+/.env.*
+!/.env.example
+/secrets.nix
+/*.local.nix
+/private/
+*.agekey
+*.key
+*.pem
+id_dsa
+id_ecdsa
+id_ed25519
+id_rsa
